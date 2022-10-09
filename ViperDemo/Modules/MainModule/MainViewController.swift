@@ -7,31 +7,27 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController, PresenterToViewProtocol {
     
-     var presenter: ViewToPresenterProtocol? {
-        didSet {
-            print("presenter didset")
-        }
+    
+    var presenter: ViewToPresenterProtocol?
+    
+    func showDataToUser() {
+        
     }
+    
+    
+     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .green
         print("from view viewdidload")
-        presenter?.viewDidLoad()
+        MainRouter.createThisModule(thisModuleVC: self)
     }
 
 
 }
 
-extension MainViewController: PresenterToViewProtocol {
-    
-    func showData() {
-        print("view show data")
-    }
-    
-    
-}
 

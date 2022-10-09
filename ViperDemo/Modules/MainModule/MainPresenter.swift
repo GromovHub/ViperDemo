@@ -14,9 +14,3 @@ final class MainPresenter {
     }
 }
 
-extension MainPresenter: ViewToPresenterProtocol {
-    
-    func viewDidLoad() {
-        print("presenter view did load")
-    }
-}
