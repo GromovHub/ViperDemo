@@ -13,7 +13,7 @@ protocol PresenterToViewProtocol: AnyObject {
     func showDataToUser()
 }
 protocol PresenterToRouterProtocol: AnyObject {
-    static func createThisModule(thisModuleVC: MainViewController)
+    static func createDependencies(thisModuleVC: MainViewController)
     func showAnotherScreen(from: UIViewController)
 }
 protocol PresenterToInteractorProtocol: AnyObject {
@@ -30,6 +30,6 @@ protocol ViewToPresenterProtocol: AnyObject {
     func buttonTapped()
 }
 protocol InteractorToPresenterProtocol: AnyObject {
-    func dataRecieved()
+    func dataRecieved(data: Data)
 }
 

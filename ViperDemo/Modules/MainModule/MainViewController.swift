@@ -24,7 +24,7 @@ class MainViewController: UIViewController, PresenterToViewProtocol {
         // Do any additional setup after loading the view.
         view.backgroundColor = .green
         print("from view viewdidload")
-        MainRouter.createThisModule(thisModuleVC: self)
+        MainRouter.createDependencies(thisModuleVC: self)
     }
 
 

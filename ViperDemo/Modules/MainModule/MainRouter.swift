@@ -13,8 +13,8 @@ class MainRouter {
 }
 
 extension MainRouter: PresenterToRouterProtocol {
-    static func createThisModule(thisModuleVC: MainViewController) {
-        
+    static func createDependencies(thisModuleVC: MainViewController) {
+//        let presenter: ViewToPresenterProtocol & InteractorToPresenterProtocol = MainPresenter()
     }
     
     func showAnotherScreen(from: UIViewController) {
