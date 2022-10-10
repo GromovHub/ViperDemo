@@ -32,6 +32,7 @@
 		D02984DA28F13F8A004D0976 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
 		D02984DC28F13FBC004D0976 /* MainEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntity.swift; sourceTree = "<group>"; };
 		D02984DE28F14005004D0976 /* MainProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProtocols.swift; sourceTree = "<group>"; };
+		D02984E028F3EBD0004D0976 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 		D02984B328F13DD7004D0976 = {
 			isa = PBXGroup;
 			children = (
+				D02984E028F3EBD0004D0976 /* README.md */,
 				D02984BE28F13DD7004D0976 /* ViperDemo */,
 				D02984BD28F13DD7004D0976 /* Products */,
 			);
