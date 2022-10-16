@@ -10,7 +10,7 @@ import UIKit
 
 protocol PresenterToViewProtocol: AnyObject {
     var presenter: ViewToPresenterProtocol? { get set }
-    func showDataToUser()
+    func showDataToUser(with: MainModuleEntity)
 }
 protocol PresenterToRouterProtocol: AnyObject {
     static func createDependencies(thisModuleVC: MainViewController)
@@ -30,6 +30,6 @@ protocol ViewToPresenterProtocol: AnyObject {
     func buttonTapped()
 }
 protocol InteractorToPresenterProtocol: AnyObject {
-    func dataRecieved(data: Data)
+    func dataRecieved(data: MainModuleEntity)
 }
 

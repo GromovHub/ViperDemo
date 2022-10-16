@@ -17,6 +17,7 @@
 		D02984DB28F13F8A004D0976 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02984DA28F13F8A004D0976 /* MainRouter.swift */; };
 		D02984DD28F13FBC004D0976 /* MainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02984DC28F13FBC004D0976 /* MainEntity.swift */; };
 		D02984DF28F14005004D0976 /* MainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02984DE28F14005004D0976 /* MainProtocols.swift */; };
+		D0F5ADA728FBCF61000CDD43 /* RandomDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F5ADA628FBCF61000CDD43 /* RandomDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		D02984DC28F13FBC004D0976 /* MainEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntity.swift; sourceTree = "<group>"; };
 		D02984DE28F14005004D0976 /* MainProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProtocols.swift; sourceTree = "<group>"; };
 		D02984E028F3EBD0004D0976 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D0F5ADA628FBCF61000CDD43 /* RandomDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		D02984BE28F13DD7004D0976 /* ViperDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D0F5ADA528FBCF48000CDD43 /* Service */,
 				D02984D428F13ED6004D0976 /* Modules */,
 				D02984D328F13E9E004D0976 /* SupportFiles */,
 			);
@@ -103,6 +106,14 @@
 				D02984DE28F14005004D0976 /* MainProtocols.swift */,
 			);
 			path = MainModule;
+			sourceTree = "<group>";
+		};
+		D0F5ADA528FBCF48000CDD43 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D0F5ADA628FBCF61000CDD43 /* RandomDataService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 				D02984DF28F14005004D0976 /* MainProtocols.swift in Sources */,
 				D02984C428F13DD7004D0976 /* MainViewController.swift in Sources */,
 				D02984DD28F13FBC004D0976 /* MainEntity.swift in Sources */,
+				D0F5ADA728FBCF61000CDD43 /* RandomDataService.swift in Sources */,
 				D02984C028F13DD7004D0976 /* AppDelegate.swift in Sources */,
 				D02984C228F13DD7004D0976 /* SceneDelegate.swift in Sources */,
 				D02984D928F13F6F004D0976 /* MainInteractor.swift in Sources */,
